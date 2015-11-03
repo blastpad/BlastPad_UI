@@ -1,0 +1,191 @@
+/* Container Size */
+.blastpad .full {
+	margin: auto;
+	width: 100%;
+}
+
+.blastpad .fixed {
+	margin: auto;
+	max-width: 1080px;
+	width: 100%;
+}
+
+.blastpad .wide {
+	margin: auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.blastpad .narrow {
+	margin: auto;
+	max-width: 640px;
+	width: 100%;
+}
+
+/* Spacing. */
+.blastpad .crowded {
+	padding: 0;
+}
+
+.blastpad .tight {
+	padding: 5px;
+}
+
+.blastpad .compact {
+	padding: 10px;
+}
+
+.blastpad .loose {
+	padding: 30px;
+}
+
+.blastpad .roomy {
+	padding: 40px;
+}
+
+.blastpad .spacious {
+	padding: 50px;
+}
+
+/* Alignment. */
+.blastpad .center {
+	margin: auto;
+	text-align: center;
+}
+
+.blastpad .middle {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+/* Justify. */
+.blastpad .left_justify {
+	text-align: left;
+}
+
+.blastpad .right_justify {
+	text-align: right;
+}
+
+.blastpad .center_justify{
+	text-align: center;
+}
+
+/* Font size. */
+.blastpad .tiny_text {
+	font-size: 0.8em;
+}
+
+.blastpad .small_text {
+	font-size: 0.9em;
+	line-height: 0.9em;
+}
+
+.blastpad .normal_text {
+	font-size: 1em;
+}
+
+.blastpad .medium_text {
+	font-size: 1.5em;
+}
+
+.blastpad .big_text {
+	font-size: 2em;
+}
+
+.blastpad .huge_text {
+	font-size: 3em;
+}
+
+.blastpad .jumbo_text {
+	font-size: 4em;	
+}
+
+/* Font style. */
+.blastpad .normal {
+    font-style: normal;
+}
+
+.blastpad .italic {
+    font-style: italic;
+}
+
+.blastpad .oblique {
+    font-style: oblique;
+}
+
+/* Text color. */
+.blastpad .dark_text {
+	color: #010101;
+}
+
+.blastpad .light_text {
+	color: #fefefe;
+}
+
+.blastpad .neutral_text {
+	color: #808080;
+}
+
+/* Colors. */
+.blastpad .transparent  { background-color: transparent;}
+.blastpad .white { background-color: #FFFFFF;}
+.blastpad .magenta { background-color: #FF0097;}
+.blastpad .red { background-color: #FF4136;}
+.blastpad .orange { background-color: #FF851B;}
+.blastpad .yellow { background-color: #FFDC00;}
+.blastpad .olive { background-color: #3D9970;}
+.blastpad .green { background-color: #2ECC40;}
+.blastpad .teal { background-color: #39CCCC;}
+.blastpad .blue { background-color: #0074D9;}
+.blastpad .violet { background-color: #EE82EE;}
+.blastpad .purple { background-color: #B10DC9;}
+.blastpad .pink { background-color: #ffb6c1;}
+.blastpad .brown { background-color: #A05000;}
+.blastpad .gray { background-color: #AAAAAA;}
+.blastpad .grey { background-color: #AAAAAA;}	/* Alias of gray. */
+.blastpad .black { background-color: #111111;}
+
+.blastpad .navy { background-color: #001f3f;}
+.blastpad .aqua { background-color: #7FDBFF;}
+.blastpad .lime { background-color: #01FF70;}
+.blastpad .maroon { background-color: #85144b;}
+.blastpad .fuchsia { background-color: #F012BE;}
+.blastpad .silver { background-color: #DDDDDD;}
+
+.blastpad .light_text {
+	color: #efefef;
+}
+
+.blastpad .neutral_text {
+	color: #808080;
+}
+
+.blastpad .dark_text {
+	color: #333333;
+}
+
+/* Border. */
+
+.blastpad .border {
+	border-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 10px;
+	padding: 10px;	
+}
+
+.blastpad .tight_border {
+	border-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
