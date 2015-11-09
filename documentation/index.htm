@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>BlastPad UI: A CSS Front-end Framework</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />	
-	<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="../css/module/barebones.css" rel="stylesheet" type="text/css" />
-	<link href="../css/module/default.css" rel="stylesheet" type="text/css" />
-	<link href="../css/module/form.css" rel="stylesheet" type="text/css" />
-	<link href="../css/module/semantic.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>BlastPad UI: A CSS Front-end Framework</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+	<meta http-equiv="cleartype" content="on" />
+	<link href="http://blastpad.co/ui/alpha/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<div class="blastpad">
-		<div class="container narrow spacious">
-			<div class="center">
-				<p>&nbsp;</p>
-				<h1><a href="../">BlastPad UI</a></h1>
-				A lightweight CSS front-end framework.
-			</div>
+	<div class="bp_container bp_wide bp_spacious">
+		<header class="bp_center">
+			<h1 class="bp_brand"><a href="../">BlastPad UI</a></h1>
+			A lightweight CSS front-end framework.
+		</header>
+		
+		<main>	
+			<section>
+		
+			<p>BlastPad UI is a lightweight CSS front-end framework without the bloat.</p>
 			
-			<div>
-				<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+			<p>Include only what you need, leave what you don't.</p>
+			
+			</section>	
+			<section>
+			
 				<h3>Getting Started</h3><hr />
 				
+				<p>To start using BlastPad UI, include the following in the <code>&lt;head&gt;</code> of your HTML document.  This will include the BlastPad UI CSS file in your document.</p>
 				
+				<code class="bp_snippet">
+					&lt;link href="http://blastpad.co/ui/alpha/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" /&gt;
+				</code>
+			
+			</section>	
+			<section>
+			
+				<h4>Self-hosted</h4><hr />
 				
-				<p>BlastPad UI is a lightweight CSS front-end framework without the bloat.</p>
+				<p>If you want to self-host the code instead of linking to it, you can download the code from <a href="https://github.com/blastpad/BlastPad_UI">GitHub</a>.</p>
 				
-				<p>Include only what you need, leave what you don't.</p>
+				<p>Unzip the file and place it in your project directory.  Then in the head of your HTML document, add the following code, replacing the phrase "yourfilepath" with the link to where you placed the <code>blastpad_ui.min.css</code> file.</p>
+				
+				<code class="bp_snippet">
+					&lt;link href="http://yourfilepath/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" /&gt;
+				</code>
+			
+			</section>	
+			<section>
+				<h4>Boilerplate Example</h4><hr />
+				
+				<p>You can also view a <a href="../example/boilerplate/">boilerplate example</a>.  Just click "View Source" on your browser to see the code.</p>
 				
 				<p>&nbsp;</p>
 				
-				<p>See the examples to help you get started.</p>
+				<p>That's it!</p>
 				
-				More coming soon...
-			</div>
-			
-			<div class="loose center">
+			</section>	
+			<section>
+				<h3>Examples</h3><hr />
 				
-				<a href="../example"><input type="button" value="Examples" /></a>
-				<p>&nbsp;</p>
-			</div>
-			<div class="center">
-			
-				<span class="red compact">&nbsp;</span><span class="orange compact">&nbsp;</span><span class="yellow compact">&nbsp;</span><span class="olive compact">&nbsp;</span><span class="green compact">&nbsp;</span><span class="teal compact">&nbsp;</span><span class="blue compact">&nbsp;</span><span class="violet compact">&nbsp;</span><span class="pink compact">&nbsp;</span><span class="grey compact">&nbsp;</span><span class="aqua compact">&nbsp;</span><span class="lime compact">&nbsp;</span><span class="fuchsia compact">&nbsp;</span><span class="silver compact">&nbsp;</span><span class="maroon compact">&nbsp;</span><span class="purple compact">&nbsp;</span><span class="navy compact">&nbsp;</span><span class="brown compact">&nbsp;</span><span class="black compact">&nbsp;</span>		
-			</div>
-		</div><!-- End of container div. -->
-	</div><!-- End of blastpad div. -->
+				<p>View the examples to help you get started.</p>
+				<p>		
+					<a href="../example"><input type="button" value="Examples" /></a>
+					<p>&nbsp;</p>
+				</p>	
+			</section>	
+		</main>
+		<footer>
+		</footer>
+	</div><!-- End of container div. -->
 </body>
 </html>

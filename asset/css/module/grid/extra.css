@@ -1,0 +1,95 @@
+/* Grid custom */
+
+/* Container Size */
+.bp_full {
+	max-width: 100%;
+	width: 100%;
+}
+
+.bp_fluid {
+	max-width: 100%;
+}
+
+.bp_wide {
+	max-width: 1200px;
+}
+
+.bp_fixed {
+	max-width: 1080px;
+}
+
+.bp_narrow {
+	max-width: 640px;
+}
+
+.bp_skinny {
+	max-width: 320px;
+}
+
+/* Spacing. */
+.bp_crowded {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.bp_tight {
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.bp_compact {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.bp_loose {
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.bp_roomy {
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+.bp_spacious {
+	box-sizing: border-box;
+	padding: 50px;
+	
+}
+
+/* Alignment. */
+.bp_center {
+	margin: auto;
+	text-align: center;
+}
+
+.bp_middle {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+/* Border. */
+
+.bp_border {
+	border-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 10px;
+	padding: 10px;	
+}
+
+.bp_tight_border {
+	border-color: #efefef;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}

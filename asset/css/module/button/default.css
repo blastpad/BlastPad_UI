@@ -1,0 +1,14 @@
+/* Button default */
+
+button {
+	background-color: #18bc9c;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: bold;
+	margin: auto;
+	padding: 10px 20px 10px 20px;	
+}

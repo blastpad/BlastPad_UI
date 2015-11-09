@@ -1,0 +1,36 @@
+/* General default */
+
+main {
+	background-color: transparent;
+	clear: both;
+	height: 100%;
+	margin: auto;
+	max-width: 900px;
+	padding: 10px;
+}
+
+ul {
+    margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: 0;
+	background: #efefef;
+	height: 1px;
+}
+
+code {
+	background-color: #fefefe;
+	border: 1px solid #efefef;
+	padding: 3px;
+	/* overflow-wrap: normal;
+	overflow-x: scroll;*/
+}
+
+/* Footer. */
+footer {
+	background-color: #030303;
+	color: #efefef;
+	width: 100%;
+}

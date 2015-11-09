@@ -1,0 +1,26 @@
+/* General extra */
+
+.bp_message {
+	background-color: #f7ff00;
+	border: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: auto;
+	text-align: center;
+}
+
+.bp_snippet {
+	background-color: #fefefe;
+	display: block;
+	font-size: 1.1em;
+	margin: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.bp_footer {
+	margin: auto;
+	width: 900px;
+}
+

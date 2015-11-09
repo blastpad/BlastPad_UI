@@ -1,0 +1,61 @@
+
+/* Font size. */
+.bp_tiny_text {
+	font-size: 0.8em;
+}
+
+.bp_small_text {
+	font-size: 0.9em;
+	line-height: 0.9em;
+}
+
+.bp_normal_text {
+	font-size: 1em;
+}
+
+.bp_medium_text {
+	font-size: 1.5em;
+}
+
+.bp_big_text {
+	font-size: 2em;
+}
+
+.bp_huge_text {
+	font-size: 3em;
+}
+
+.bp_jumbo_text {
+	font-size: 4em;	
+}
+
+/* Font style. */
+.bp_normal { 
+	font-style: normal;
+}
+
+.bp_italic {
+    font-style: italic;
+}
+
+.bp_oblique {
+    font-style: oblique;
+}
+
+/* Justify. */
+.bp_left_justify {
+	text-align: left;
+}
+
+.bp_right_justify {
+	text-align: right;
+}
+
+.bp_center_justify{
+	text-align: center;
+}
+
+/*  */
+.bp_brand {
+	
+}

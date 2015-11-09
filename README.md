@@ -2,6 +2,16 @@
 A simple, lightweight and modular CSS front-end framework for styling websites quickly.
 
 
+# Documentation
+View the Getting Started Guide at http://blastpad.co/ui/alpha/documentation/
+
+
+
+# Examples
+View the examples at http://blastpad.co/ui/alpha/example/
+
+
+
 # License
 This is released under the GPL license so feel free to use.
 
@@ -20,14 +30,18 @@ You can also email me for more information.
 
 # Credits
 Honey Silvas (@honeysilvas)
+
 (Add your name here by contributing.)
 
 
 
 # Contact Information
-For bug reports, feature requests, questions, or corrections, please contact me at:
-http://blastpad.co/ui
+For issues, help, bug reports, feature requests, questions, or corrections, please contact me at:
 theblastpad@gmail.com
-Join the chat at https://gitter.im/blastpad/BlastPad
 @theblastpad
+or join the chat at https://gitter.im/blastpad/BlastPad
+
+
+
+http://blastpad.co/ui
 GitHub: https://github.com/blastpad/BlastPad_UI
