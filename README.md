@@ -23,9 +23,10 @@ This is a great open-source project for beginners whether you are new to program
 
 We also welcome contributors of all levels.
 
-Fork from GitHub at https://github.com/blastpad/BlastPad_UI, create a pull request or chat with us at Join the chat at https://gitter.im/blastpad/BlastPad
+Email me or contribute to the project on GitHub at https://github.com/blastpad/BlastPad_UI.
 
-You can also email me for more information.
+You can also chat with us at https://gitter.im/blastpad/BlastPad
+
 
 
 # Credits
@@ -36,12 +37,15 @@ Honey Silvas (@honeysilvas)
 
 
 # Contact Information
+
 For issues, help, bug reports, feature requests, questions, or corrections, please contact me at:
+
 theblastpad@gmail.com
+
 @theblastpad
+
 or join the chat at https://gitter.im/blastpad/BlastPad
 
-
-
 http://blastpad.co/ui
+
 GitHub: https://github.com/blastpad/BlastPad_UI
