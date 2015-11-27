@@ -1,25 +1,27 @@
 /* Form default */
-input {
-	font-size: 1em;
-	border: 1px solid #efefef;
-	box-sizing: border-box;
-	padding: 10px;
-}
-
-input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea {	
-	margin: 10px 0 0 0;
-	width: 80%;
-}
-
-input[ type="submit" ], input[ type="button" ] {
-	background-color: #18bc9c;
-	color: #fefefe;
-	font-weight: bold;
-	margin: auto;
-	padding: 10px 20px 10px 20px;
+input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea {
+	border: 0.1em solid #efefef;
+	margin: 0.5em 0 0 0;
+	padding: 0.8em;
+	width: 100%;
 }
 
 label {
-	padding: 5px;
-	box-sizing: border-box;
+	padding: 0.5em;
+}
+
+textarea {
+	height: 15em;
+}
+
+/* Button */
+
+button, input[ type="submit" ], input[ type="button" ] {
+	background-color: #ffffff;
+	border: 0.1em solid #666666;
+	color: #666666;
+	font-size: 1em;
+	font-weight: bold;
+	margin: auto;
+	padding: 0.8em 1em 0.8em 1em;
 }

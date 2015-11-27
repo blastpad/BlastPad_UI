@@ -1,0 +1,26 @@
+
+.bp_section_headline {
+	background-image: url( "../../asset/image/dawn_190053.jpg" );
+}
+
+.bp_section_introduction {
+
+}
+
+.bp_section_service {
+	
+}
+
+.bp_section_team {
+
+}
+
+/*
+section:nth-child(odd) {
+	background-color: green;
+}
+
+section:nth-child(even) {
+	background-color: red;
+}
+*/

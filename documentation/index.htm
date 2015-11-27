@@ -10,38 +10,64 @@
 	<meta name="MobileOptimized" content="320" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
 	<meta http-equiv="cleartype" content="on" />
-	<link href="http://blastpad.co/ui/alpha/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" />
+	<link href="http://blastpad.co/ui/beta/asset/css/" rel="stylesheet" type="text/css" />
+	<link href="http://blastpad.co/ui/beta/asset/css/custom.css" rel="stylesheet" type="text/css" />
+	<!--link href="../asset/css" rel="stylesheet" type="text/css" />
+	<link href="../asset/css/custom.css" rel="stylesheet" type="text/css" /-->
 </head>
 
 <body>
-	<div class="bp_container bp_wide bp_spacious">
-		<header class="bp_center">
-			<h1 class="bp_brand"><a href="../">BlastPad UI</a></h1>
-			A lightweight CSS front-end framework.
+	<div class="bp_container bp_full">
+		<header>
+			<div class="bp_bar_container bp_sticky_top">
+				<div class="bp_bar bp_extra_wide">
+					<div class="bp_logo">
+						<a href="http://blastpad.co/ui">BlastPad UI</a>
+					</div>
+					<div class="bp_menu">
+						<nav>
+							<ul>
+								<li><a href="http://blastpad.co/ui/beta/documentation">Getting Started</a></li>
+								<li><a href="http://blastpad.co/ui/beta/example">Examples</a></li>
+								<li><a href="https://github.com/blastpad/BlastPad_UI">Download</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</header>
 		
-		<main>	
+		<main class="bp_wide">
 			<section>
-		
-			<p>BlastPad UI is a lightweight CSS front-end framework without the bloat.</p>
+				<div class="bp_center_justify">
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<div>
+						<h1 class="bp_brand"><a href="http://blastpad.co/ui">BlastPad UI</a></h1>
+						<span class="bp_big_text">A lightweight CSS front-end framework</span>
+					<div>
+					
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<h2>Getting Started</h2>
+				</div>	
 			
-			<p>Include only what you need, leave what you don't.</p>
-			
+				<div class="bp_left_justify">
+				
+					<p>To start using BlastPad UI, include the following in the <code>&lt;head&gt;</code> of your HTML document.  This will include the BlastPad UI CSS file in your document.</p>
+					
+					<code class="bp_snippet">
+						&lt;link href="http://blastpad.co/ui/beta/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" /&gt;
+					</code>
+				</div>
 			</section>	
 			<section>
 			
-				<h3>Getting Started</h3><hr />
-				
-				<p>To start using BlastPad UI, include the following in the <code>&lt;head&gt;</code> of your HTML document.  This will include the BlastPad UI CSS file in your document.</p>
-				
-				<code class="bp_snippet">
-					&lt;link href="http://blastpad.co/ui/alpha/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" /&gt;
-				</code>
-			
-			</section>	
-			<section>
-			
-				<h4>Self-hosted</h4><hr />
+				<h3 class="bp_center_justify">Self-hosted</h3>
 				
 				<p>If you want to self-host the code instead of linking to it, you can download the code from <a href="https://github.com/blastpad/BlastPad_UI">GitHub</a>.</p>
 				
@@ -53,27 +79,27 @@
 			
 			</section>	
 			<section>
-				<h4>Boilerplate Example</h4><hr />
-				
-				<p>You can also view a <a href="../example/boilerplate/">boilerplate example</a>.  Just click "View Source" on your browser to see the code.</p>
-				
-				<p>&nbsp;</p>
-				
-				<p>That's it!</p>
-				
-			</section>	
-			<section>
-				<h3>Examples</h3><hr />
+				<h3 class="bp_center_justify">Examples</h3>
 				
 				<p>View the examples to help you get started.</p>
 				<p>		
-					<a href="../example"><input type="button" value="Examples" /></a>
+					<a href="../example"><button class="bp_call_to_action bp_center_justify">Examples</button></a>
 					<p>&nbsp;</p>
 				</p>	
-			</section>	
+			
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<h4>Boilerplate Example</h4>
+				
+				<p>You can also view a <a href="../vendor/blastpad_ui/example/boilerplate/">boilerplate example</a>.  Just click "View Source" on your browser to see the code.</p>
+				
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p class="bp_big_text bp_right_justify">That's it!</p>
+			</section>
 		</main>
-		<footer>
-		</footer>
+
 	</div><!-- End of container div. -->
 </body>
 </html>

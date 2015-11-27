@@ -1,4 +1,9 @@
-body {
-	background-color: #fefefe;
-	color: #010101;
+/* Light base */
+body, footer, .bp_form, .bp_bar_container {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.bp_section_introduction, .bp_section_team {
+	background-color: #f9f9f9;
 }

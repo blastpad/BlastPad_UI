@@ -28,9 +28,6 @@
 .bp_content {
 	background-color: #fcfcfc;
 	border: 1px solid #dddddd;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	position: absolute;
 	top: 28px;
 	left: 0;

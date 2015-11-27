@@ -3,57 +3,209 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>BlastPad UI Article Example</title>
+	<title>BlastPad UI One Page Site Example</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="MobileOptimized" content="320" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
 	<meta http-equiv="cleartype" content="on" />
-	<link href="http://blastpad.co/ui/alpha/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" />
+	<!--link href="../../asset/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /-->
+	<!--link href="http://blastpad.co/ui/beta/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" /-->
+	<link href="../../../../src/style" rel="stylesheet" type="text/css" />
+	<link href="../../../../vendor/blastpad_ui/asset/css/module/motif/base/dark_on_light.css" rel="stylesheet" type="text/css" />
+	<link href="../../../../vendor/blastpad_ui/asset/css/module/grid/fixed.css" rel="stylesheet" type="text/css" />	
+	<link href="asset/css/style.css" rel="stylesheet" type="text/css" />	
 </head>
 <body>
 	<header>
-		<div class="bp_bar_container bp_sticky">
-		<div class="bp_bar">
-			<div class="bp_logo">
-				<a href="#">Logo</a>
+		<div class="bp_bar_container bp_sticky_top">
+			<div class="bp_bar bp_wide">
+				<div class="bp_logo">
+					<a href="#">Logo</a>
+				</div>
+				<div class="bp_menu bp_left">
+					<nav>
+						<ul>
+							<li><a href="#headline">Home</a></li>
+							<li><a href="#introduction">About</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#team">Our Team</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#testimonial">Testimonial</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!--div class="bp_menu bp_center">
+					<nav>
+						<ul>
+							<li><a href="#">Menu 1</a></li>
+							<li><a href="#">Menu 2</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="bp_menu bp_right">
+					<nav>
+						<ul>
+							<li><a href="#">Menu 1</a></li>
+							<li><a href="#">Menu 2</a></li>
+						</ul>
+					</nav>
+				</div-->
 			</div>
-			<div class="bp_menu bp_left">
-				<nav>
-					<ul>
-						<li><a href="#">Menu 1</a></li>
-						<li><a href="#">Menu 2</a></li>
-					</ul>
-				</nav>
-			</div>
-			<!--div class="bp_menu bp_center">
-				<nav>
-					<ul>
-						<li><a href="#">Menu 1</a></li>
-						<li><a href="#">Menu 2</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="bp_menu bp_right">
-				<nav>
-					<ul>
-						<li><a href="#">Menu 1</a></li>
-						<li><a href="#">Menu 2</a></li>
-					</ul>
-				</nav>
-			</div-->
 		</div>
 	</header>
 
-	<div class="bp_container bp_wide">	
+	<div class="bp_container">	
 		<main>
-				
+			<a name="#headline"></a>
+			<section class="bp_full bp_center bp_section_headline">
+				<div class="bp_wide bp_center bp_center_justify bp_light_text">
+					
+					<h2 class="bp_jumbo_text">This is a jumbo headline.</h2>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+					<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#"><button class="bp_call_to_action bp_orange">Call to Action</button></a>
+				</div>
+			</section>
+			<a name="#introduction"></a>
+			<section class="bp_wide bp_full_height bp_center bp_section_introduction">
+				<div>
+					<h2>Introduction</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+					<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</section>
+			<hr />
+			<a name="#service"></a>
+			<section class="bp_wide bp_full_height bp_center bp_section_service">
+				<div class="section bp_center_justify">
+					<p>&nbsp;</p>
+					<h2>Our Services</h2>
+					<p>&nbsp;</p>
+					<div class="bp_column_3">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="bp_column_3">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="bp_column_3">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>	
+			</section>
+			<hr />
+			<a name="#team"></a>
+			<section class="bp_wide bp_full_height bp_center bp_section_team">
+				<div>
+					<h2>Team</h2>
+					<div class="bp_column_2">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="bp_column_2">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>					
+					<div class="bp_column_3">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="bp_column_3">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="bp_column_3">
+						<img class="bp_circle_image bp_small" src="asset/image/man_913582_640.jpg" />
+						<h3>Leonora Mick</h3>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<p>test</p>		
+					<p>test</p>
+					<p>test</p>
+					<p class="bp_neutral_text">testasdasdas</p>
+				</div>
+			</section>
+			<hr />
+			<a name="#portfolio"></a>
+			<section class="bp_wide bp_full_height bp_center bp_section_portfolio">
+				<h2>Portfolio</h2>
+				<p>Test</p>
+				<p>test</p>		
+				<p>test</p>
+				<p>test</p>
+				<p class="bp_neutral_text">testasdasdas</p>
+			</section>
+			<hr />
+			<a name="#testimonial"></a>
+			<section class="bp_wide bp_full_height bp_center bp_section_testimonial">
+				<h2>Testimonial</h2>
+				<div class="bp_left" style="background-color: #00ffff;">
+					<div class="bp_testimonial">This is a testimonial.  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- John Smith</blockquote>
+					</div>
+					<div class="bp_testimonial">
+					<blockquote>This is a testimonial.  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- John Smith</blockquote>	
+					</div>
+				</div>
+				<div class="bp_right">
+					<div class="bp_panel">
+					<div class="bp_panel_heading">This is a testimonial.  </div>
+					<blockquote>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- John Smith</blockquote>
+					
+					</div>
+					<div class="bp_speech">
+					<blockquote>This is a testimonial.  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- John Smith</blockquote>
+					</div>
+				</div>
+			</section>
+			<hr />
+			<a name="#contact"></a>
+			<section class="bp_full bp_section_contact">
+				<div class="bp_container bp_narrow">
+					<div>
+						<span class="bp_center_justify">
+							<h2>Contact</h2>
+							<p>Please fill out the form below to get more information.</p>
+						</span>	
+						<form action="" class="bp_form bp_border" method="post">
+							<span class="bp_email">
+								<input class="bp_field" name="name" placeholder="Name" type="text" />
+							</span>
+							<span class="bp_email">
+								<input class="bp_field" name="email" placeholder="Email address" required="required" type="email" />
+							</span>
+							<span class="bp_email">
+								<input class="bp_field" name="subject" placeholder="Subject" type="text" />
+							</span>
+							<span class="bp_textarea">
+								<textarea placeholder="Message" required="required"></textarea>
+							</span>
+							<span class="bp_submit"><input class="bp_submit_button bp_full" name="login" type="submit" value="Sign up" /></span>
+						</form>
+						<p>Or contact us at:</p>
+						<span class="bp_left"><strong>Email:</strong> email@email.com</span>
+						<span class="bp_right"><strong>Phone:</strong> 1.888.000.0000</span>
+					</div><!-- End of bp_form_box. -->	
+				</div><!-- End of bp_form_container. -->
+			</section>
 		</main>
 	</div><!-- End of bp_container div. -->
 	
-	<footer>
-		This is a footer.
+	<footer class="bp_sticky_bottom">
+		<div class="bp_wide">
+			This is a footer.
+		</div>	
 	</footer>
 </body>
 </html>

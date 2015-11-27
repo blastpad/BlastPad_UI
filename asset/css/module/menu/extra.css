@@ -17,16 +17,12 @@
     background: -moz-linear-gradient(top, #f8f8f8, #eee);
     background: linear-gradient(top, #f8f8f8, #eee);
 	bottom: 0;
-	padding: 5px;
+	padding: 0.25em;
 	width: 100%;
 }
 
-.bp_sticky {
-	position: fixed;
-}
-
 .bp_bar_container {
-	background-color: #fefefe;
+	background-color: #ffffff;
 	margin: auto;
 	width: 100%;
 	z-index: 1;
@@ -37,18 +33,15 @@
 }
 
 .bp_bar {
-	background-color: transparent;
 	margin: auto;
-	width: 900px;
+	width: 100%;
 }
 
 .bp_logo {
-	background-color: #00ff00;
 	float: left;
 }
 
 .bp_menu {
-	background-color: #efefef;
 	text-align: right;
 }
 
@@ -58,4 +51,18 @@
 
 .bp_menu li{
 	display: inline;
+	font-size: 0.9em;
+	margin: 0.5em;
 }
+
+/* Sticky */
+
+.bp_sticky_top { 
+	position: fixed;
+}
+
+.bp_sticky_bottom {
+	bottom: 0;
+	position: fixed;
+}
+

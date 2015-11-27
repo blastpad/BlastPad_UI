@@ -10,44 +10,38 @@
 	<meta name="MobileOptimized" content="320" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
 	<meta http-equiv="cleartype" content="on" />
-	<link href="../../asset/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="http://blastpad.co/ui/alpha/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" />
+	<link href="http://blastpad.co/ui/beta/vendor/blastpad_ui/asset/css/blastpad_ui.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<div class="bp_container">
-		<div class="bp_form_container">
-			<div class="bp_form_box">				
-				<div class="bp_center">
-					<h1><i class="fa fa-rocket"></i> &nbsp; BlastPad</h1>
-					<p>Sign up for a new account.</p>	
-					<span class="bp_message">This is an example registration form for BlastPad UI.</span>	
-				</div>
-				   
-				<form action="" class="bp_form bp_center bp_border" method="post">
-				<span class="bp_user_name">
-					<label><i class="fa fa-user fa-lg"></i></label> 
-					<input class="bp_field" name="user_name" placeholder="Username" required="required" type="text" />
-				</span>
-				<br />
-				<span class="bp_password">			
-					<label><i class="fa fa-key fa-lg"></i></label> 
-					<input class="bp_field" name="password" placeholder="Password" required="required" type="password" />
-				</span>
-				<br />
-				<span class="bp_email">			
-					<label><i class="fa fa-envelope-o fa-lg"></i></label> 
-					<input class="bp_field" name="email" placeholder="Email address" required="required" type="email" />
-				</span>
-				<p>&nbsp;</p>
-				
-				<span class="bp_submit"><input class="bp_submit_button bp_full" name="login" type="submit" value="Sign up" /></span>
-				</form>
-				<div>
-					Already have an account?  <a href="../login_example">Sign in!</a>
-				</div>
-			</div><!-- End of bp_form_box. -->	
-		</div><!-- End of bp_form_container. -->
+	<div class="bp_container bp_narrow">
+		<div>				
+			<div class="bp_center_justify">
+				<h1>BlastPad</h1>
+				<p>Sign up for a new account.</p>	
+				<span class="bp_message">This is an example registration form for BlastPad UI.</span>	
+			</div>
+			   
+			<form action="" class="bp_form bp_center bp_border" method="post">
+			<span>
+				<input class="bp_field" name="user_name" placeholder="Username" required="required" type="text" />
+			</span>
+			<br />
+			<span>			
+				<input class="bp_field" name="password" placeholder="Password" required="required" type="password" />
+			</span>
+			<br />
+			<span>
+				<input class="bp_field" name="email" placeholder="Email address" required="required" type="email" />
+			</span>
+
+			
+			<span class="bp_submit"><input class="bp_submit_button bp_full" name="login" type="submit" value="Sign up" /></span>
+			</form>
+			<div>
+				Already have an account?  <a href="../login">Sign in!</a>
+			</div>
+		</div><!-- End of bp_form_box. -->	
 	</div><!-- End of bp_container div. -->
 </body>
 </html>

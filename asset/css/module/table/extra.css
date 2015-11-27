@@ -1,0 +1,10 @@
+/* Table rows. */
+.bp_table_striped > tbody > tr:nth-child(odd) > td, 
+.bp_table_striped > tbody > tr:nth-child(odd) > th {
+   background-color: #ffffff;
+ }
+ 
+.bp_table_striped > tbody > tr:nth-child(even)> td, 
+.bp_table_striped > tbody > tr:nth-child(even)> th {
+   background-color: #D3EE9F;
+ }

@@ -1,21 +1,13 @@
 /* Form extra */
-.bp_form_container {
-	height: 100%;
-	position: relative;
-	width: 100%;
-}
-
-.bp_form_box {
-	height: 50%;
-	left: 50%;
-	max-width: 100%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 500px;
-}
-
 .bp_form {
-	background-color: #ffffff;
-	padding: 10px;	
+	padding: 0.5em;	
+}
+
+/* Button */
+
+.bp_call_to_action {
+	background-color: #f9cc46;
+	border: none;
+	color: #ffffff;
+	font-size: 1.1em;
 }

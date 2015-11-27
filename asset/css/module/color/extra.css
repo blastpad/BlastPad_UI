@@ -1,0 +1,39 @@
+/* Colors extra */
+
+/* Text color. */
+.bp_light_text {
+	color: #ffffff;
+}
+
+.bp_neutral_text {
+	opacity: 0.5;
+}
+
+.bp_dark_text {
+	color: #000000;
+}
+
+/* Colors */
+.bp_transparent  { background-color: transparent;}
+.bp_white { background-color: #ffffff;}
+.bp_magenta { background-color: #ff0097;}
+.bp_red { background-color: #ff4136;}
+.bp_orange { background-color: #ff851b;}
+.bp_yellow { background-color: #ffdc00;}
+.bp_olive { background-color: #3d9970;}
+.bp_green { background-color: #2ecc40;}
+.bp_teal { background-color: #39cccc;}
+.bp_blue { background-color: #0074d9;}
+.bp_violet { background-color: #ee82ee;}
+.bp_purple { background-color: #b10dc9;}
+.bp_pink { background-color: #ffb6c1;}
+.bp_brown { background-color: #a05000;}
+.bp_gray, .bp_grey { background-color: #aaaaaa;}
+.bp_black { background-color: #000000;}
+
+.bp_navy { background-color: #001f3f;}
+.bp_aqua { background-color: #7fdbff;}
+.bp_lime { background-color: #01ff70;}
+.bp_maroon { background-color: #85144b;}
+.bp_fuchsia { background-color: #f012be;}
+.bp_silver { background-color: #dddddd;}

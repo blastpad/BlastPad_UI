@@ -8,7 +8,7 @@ View the Getting Started Guide at http://blastpad.co/ui/alpha/documentation/
 
 
 # Examples
-View the examples at http://blastpad.co/ui/alpha/example/
+View the examples at http://blastpad.co/ui/beta/example/
 
 
 
