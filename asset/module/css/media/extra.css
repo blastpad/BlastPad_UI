@@ -1,0 +1,42 @@
+/* Media extra */
+
+.bp_cover {
+	background-size: cover;
+	height: 100%;
+}
+
+/* Image */
+
+img.full_screen {
+	height: 100%;
+	position: absolute;
+	text-align: middle;
+	width: 100%;
+}
+
+img.bp_circle {
+	border-radius: 50%;
+}
+
+img.bp_small {
+	height: 10em;
+	width: 10em;
+}
+
+img.bp_medium {
+	height: 20em;
+	width: 20em;
+}
+
+img.bp_large {
+	height: 50em;
+	width: 50em;
+}
+
+/* Video */
+
+.bp_video {
+	height: 100%;
+	left: 0;
+	width: 100%;
+}

@@ -1,0 +1,69 @@
+/* Container extra */
+
+/* Box */
+.bp_panel {
+	border: 0.1em solid #77eeff;
+}
+
+.bp_panel > h1, .bp_panel > h2, .bp_panel > h3,
+.bp_panel > h4, .bp_panel > h5, .bp_panel > h6 {
+	background-color: #77eeff;
+} 
+
+.bp_translucent_box {
+	background-color: rgba( 220, 220, 220, 0.1 );
+	border: solid #efefef 0.1em;
+	margin: 0.1em;
+	padding: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* Shape */
+.bp_square {
+	height: 10em;
+	padding: 10em;
+	width: 10em;	
+}
+
+.bp_small_square {
+	height: 10em;
+	width: 10em;
+}
+
+.bp_medium_square {
+	height: 25em;
+	width: 25em;
+}
+
+.bp_large_square {
+	height: 50em;
+	width: 50em;
+}
+
+.bp_rectangle {
+	height: 200px;
+	/*padding-bottom: 50%;*/
+	width: 50%;
+}
+
+/* Modal */
+
+.bp_modal {
+	background-color: #ffffff;
+	display: none;
+	padding: 1em;
+}
+
+/* Sticky bottom button. */
+
+.bp_credit a {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 0.8em;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	opacity: .50;
+}

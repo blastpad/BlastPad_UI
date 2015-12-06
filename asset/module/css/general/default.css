@@ -15,9 +15,9 @@ hr {
 code {
 	background-color: #fefefe;
 	border: 0.1em solid #efefef;
+	overflow: auto;
 	padding: 0.1em;
-	/* overflow-wrap: normal;
-	overflow-x: scroll;*/
+	white-space: pre;
 }
 
 p {

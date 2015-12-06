@@ -1,0 +1,54 @@
+/* General extra */
+
+.bp_message {
+	background-color: #ffffc8;
+	border: 0.1em solid #ffff84;
+	margin: auto;
+	text-align: center;
+}
+
+.bp_brand {
+	font-size: 3em;
+}
+
+.bp_logo {
+	font-size: 2em;
+}
+
+.bp_snippet {
+	background-color: #fcfcfc;
+	display: block;
+	font-size: 1em;
+	margin: 1em;
+	padding: 0.5em;
+	width: 100%;
+}
+
+.bp_footer {
+	margin: auto;
+	width: 100%;
+}
+
+.bp_hidden {
+	visibility: hidden;
+}
+
+/* Space */
+
+.bp_small_break {
+	height: 1em;
+}
+
+.bp_medium_break {
+	height: 2em;
+}
+
+.bp_large_break {
+	height: 5em;
+}
+
+/* */
+
+.bp_rounded_corner {
+	border-radius: 5px;
+}

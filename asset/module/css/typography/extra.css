@@ -1,0 +1,88 @@
+
+/* Font size. */
+.bp_extra_extra_small_text {
+	font-size: 0.7em;
+}
+
+.bp_extra_small_text {
+	font-size: 0.8em;
+}
+
+.bp_small_text {
+	font-size: 0.9em;
+	line-height: 0.9em;
+}
+
+.bp_medium_text {
+	font-size: 1em;
+}
+
+.bp_large_text {
+	font-size: 2em;
+}
+
+.bp_extra_large_text {
+	font-size: 3em;
+}
+
+.bp_extra_extra_large_text {
+	font-size: 4em;	
+}
+
+/* Flashcard */
+
+.bp_flashcard {
+	display: inline-block; 
+	height: 60%;	
+	font-size: 50em;	
+	position: absolute;
+	text-align: center;
+	transform:translate(-50%,-50%); 
+	-webkit-transform:translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+	white-space: nowrap;	
+	width: 100%;
+}
+
+/* Font style. */
+.bp_normal { 
+	font-style: normal;
+}
+
+.bp_italic {
+    font-style: italic;
+}
+
+.bp_oblique {
+    font-style: oblique;
+}
+
+.bp_underline {
+	text-decoration: underline;
+}
+
+.bp_bold {
+	font-weight: bold;
+}
+
+/* Justify. */
+.bp_left_justify {
+	text-align: left;
+}
+
+.bp_right_justify {
+	text-align: right;
+}
+
+.bp_center_justify{
+	text-align: center;
+}
+
+/*  */
+.bp_brand {
+	
+}
+
+
+	

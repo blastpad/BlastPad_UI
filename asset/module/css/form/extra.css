@@ -1,0 +1,40 @@
+/* Form extra */
+.bp_form {
+	padding: 0.5em;	
+}
+
+/* Text area */
+.bp_editor {
+	border: 0.1em solid #cccccc;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em;
+	height: 90%;
+	width: 95%;		
+}
+
+/* Button */
+
+.bp_call_to_action {
+	background-color: #f9cc46;
+	border: none;
+	color: #ffffff;
+	font-size: 1.1em;
+}
+
+.bp_pill {
+	border: 0.1em solid #efefef;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	font-size: 0.9em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.bp_cancel {
+	background-color: #f0f0f0;
+}
+
+.bp_disabled {
+	background-color: #f0f0f0;
+}
+

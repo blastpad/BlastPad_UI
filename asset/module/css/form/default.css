@@ -1,6 +1,7 @@
 /* Form default */
 input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea {
 	border: 0.1em solid #efefef;
+	font-size: 1em;
 	margin: 0.5em 0 0 0;
 	padding: 0.8em;
 	width: 100%;

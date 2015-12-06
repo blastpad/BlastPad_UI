@@ -11,7 +11,8 @@
 
 /* Full */
 .bp_full {
-	height: 100%;
+	height: auto;
+	min-height: 100%;
 	max-width: 100%;
 	width: 100%;
 }
@@ -22,8 +23,24 @@
 }
 
 .bp_full_height {
-	height: 100%;
+	height: auto;
+	min-height: 100%;
 }
+
+/* Panes. */
+
+.bp_left_pane {	
+	float: left; 
+	width: 20%; 
+}
+.bp_main_pane {
+
+}
+.bp_right_pane {
+	float: right;
+	width: 20%;
+}
+
 
 /* Fluid width */
 .bp_fluid {
@@ -126,6 +143,29 @@
 	border: 0.1em solid #efefef;
 }
 
+/* Scrollbar. */
+
+.bp_not_scrollable {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+.bp_scrollable {
+	position: absolute;
+	overflow-y: scroll;
+	top: 0;
+	height: 100%;
+	padding-top: 10px;
+}
+
+/* Rows. */
+
+.bp_row {
+
+}
+
 /* Columns. */
 
 .bp_column_1 {
@@ -186,4 +226,14 @@
 .bp_column_12 {
 	float: left;
 	width: 8%;
+}
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+   .bp_column_1, .bp_column_2, .bp_column_3, .bp_column_4, .bp_column_5, .bp_column_6, 
+   .bp_column_7, .bp_column_8, .bp_column_9, .bp_column_10, .bp_column_11, .bp_column_12, { 
+    float: none;
+    margin-right: 0;
+    width: auto;   
+  }
 }

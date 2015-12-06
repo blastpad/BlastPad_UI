@@ -1,14 +1,14 @@
-# BlastPad_UI
+# BlastPad UI
 A simple, lightweight and modular CSS front-end framework for styling websites quickly.
 
 
 # Documentation
-View the Getting Started Guide at http://blastpad.co/ui/alpha/documentation/
+View the Getting Started Guide at http://blastpad.co/ui/release/beta/documentation/
 
 
 
 # Examples
-View the examples at http://blastpad.co/ui/beta/example/
+View the examples at http://blastpad.co/ui/release/beta/example/
 
 
 
@@ -17,7 +17,7 @@ This is released under the GPL license so feel free to use.
 
 
 # Contributions
-Contributions are most welcome! We welcome contributions of code (HTML, CSS and JavaScript), design, documentation, support, marketing, translation, SEO and more!
+Contributions are most welcome. We welcome contributions of code (HTML, CSS and JavaScript), design, documentation, support, marketing, translation, SEO and more!
 
 This is a great open-source project for beginners whether you are new to programming or new to contributing to open-source projects. We have good first bugs, mentored bugs, bugs for pair programming if you need some guidance.
 

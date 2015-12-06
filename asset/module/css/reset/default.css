@@ -51,3 +51,8 @@ img {
 	height: auto;
 	max-width: 100%;
 }
+
+/* Defines the new HTML5 elements for older browsers. */
+article, aside, figure, footer, header, hgroup, main, menu, nav, section { 
+	display: block; 
+}
