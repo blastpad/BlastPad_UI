@@ -17,7 +17,7 @@ This is released under the GPL license so feel free to use.
 
 
 # Contributions
-Contributions are most welcome. We welcome contributions of code (HTML, CSS and JavaScript), design, documentation, support, marketing, translation, SEO and more!
+Contributions are most welcome. We welcome contributions of code (HTML and CSS), design, documentation, support, marketing, translation, SEO and more!
 
 This is a great open-source project for beginners whether you are new to programming or new to contributing to open-source projects. We have good first bugs, mentored bugs, bugs for pair programming if you need some guidance.
 
@@ -26,6 +26,8 @@ We also welcome contributors of all levels.
 Email me or contribute to the project on GitHub at https://github.com/blastpad/BlastPad_UI.
 
 You can also chat with us at https://gitter.im/blastpad/BlastPad
+
+Check out the contributing.md file for more details.
 
 
 
