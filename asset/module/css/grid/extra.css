@@ -7,6 +7,13 @@
 	overflow: auto;
 }
 
+/* Position */
+
+.bp_top_right {
+	position: absolute;
+	right: 1.5em;
+}
+
 /* Container Size */
 
 /* Full */
@@ -23,7 +30,7 @@
 }
 
 .bp_full_height {
-	height: auto;
+	height: 100%;	
 	min-height: 100%;
 }
 
@@ -231,7 +238,7 @@
 /* Mobile */
 @media screen and (max-width: 800px) {
    .bp_column_1, .bp_column_2, .bp_column_3, .bp_column_4, .bp_column_5, .bp_column_6, 
-   .bp_column_7, .bp_column_8, .bp_column_9, .bp_column_10, .bp_column_11, .bp_column_12, { 
+   .bp_column_7, .bp_column_8, .bp_column_9, .bp_column_10, .bp_column_11, .bp_column_12 { 
     float: none;
     margin-right: 0;
     width: auto;   

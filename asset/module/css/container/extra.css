@@ -67,3 +67,59 @@
 	padding: 10px;
 	opacity: .50;
 }
+
+/* Panes. */
+
+.bp_pane {
+	background-color: #f9f9f9;
+	overflow: auto;
+	position: relative;
+	resize: both;
+}
+
+.bp_main_pane {
+	overflow: hidden;
+}
+
+.bp_left_pane {	
+	height: 93%;
+	padding-bottom: 5em;
+	width: 30%;
+}
+
+.bp_right_pane {
+	height: 93%;
+	padding: 0.3em;
+	width: 30%; 
+}
+
+.bp_top_pane {	
+	top: 3em;
+	height: 30%;
+	margin: 0.1em;
+	position: fixed;
+	resize: both;
+	width: 100%;
+}
+
+.bp_top_pane_wrapper, .bp_bottom_pane_wrapper {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.bp_bottom_pane {
+	bottom: 0;
+	height: 30%;
+	margin: 0.1em;
+	position: fixed;
+	width: 100%;
+}
+
+/* Toolbar */
+
+.bp_toolbar {
+	background-color: #f9f9f9;
+	display: block;
+	padding: 0.3em;
+}

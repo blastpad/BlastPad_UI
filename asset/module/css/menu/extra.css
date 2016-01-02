@@ -66,3 +66,18 @@
 	position: fixed;
 }
 
+/* Bottom bar */
+
+.bp_bottom_bar_wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.bp_bottom_bar {
+	background-color: #f9f9f9;
+	bottom: 0;
+	display: block;
+	padding: 0.5em;
+	position: fixed;
+	width: 100%;
+}

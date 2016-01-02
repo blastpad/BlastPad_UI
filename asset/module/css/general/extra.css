@@ -24,13 +24,30 @@
 	width: 100%;
 }
 
+.bp_resizable {
+	overflow: auto;
+	resize: both;
+}
+
 .bp_footer {
 	margin: auto;
 	width: 100%;
 }
 
+/* Position */
+
+.bp_relative{
+	position: relative;
+}
+
+/* Visibility */
+
 .bp_hidden {
 	visibility: hidden;
+}
+
+.bp_visible {
+	visibility: visible;
 }
 
 /* Space */
@@ -47,7 +64,7 @@
 	height: 5em;
 }
 
-/* */
+/* Rounded corner */
 
 .bp_rounded_corner {
 	border-radius: 5px;

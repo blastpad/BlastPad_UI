@@ -1,5 +1,5 @@
 /* Form default */
-input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea {
+input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea, select {
 	border: 0.1em solid #efefef;
 	font-size: 1em;
 	margin: 0.5em 0 0 0;
@@ -8,11 +8,9 @@ input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea 
 }
 
 label {
+	font-size: 1em;
+	font-weight: bold;
 	padding: 0.5em;
-}
-
-textarea {
-	height: 15em;
 }
 
 /* Button */
