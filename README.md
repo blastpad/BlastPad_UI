@@ -3,12 +3,12 @@ A simple, lightweight and modular CSS front-end framework for styling websites q
 
 
 # Documentation
-View the Getting Started Guide at http://blastpad.co/ui/release/beta/documentation/
+View the Getting Started Guide at http://blastpad.co/ui/documentation/
 
 
 
 # Examples
-View the examples at http://blastpad.co/ui/release/beta/example/
+View the examples at http://blastpad.co/ui/example/
 
 
 

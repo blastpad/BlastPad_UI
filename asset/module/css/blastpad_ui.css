@@ -440,41 +440,75 @@ body {
 }
 
 /* Headings */
-h1 {	font-size: 2em;}
-h2 {	font-size: 1.8em;}
-h3 {	font-size: 1.6em;}
-h4 {	font-size: 1.4em;}
-h5 {	font-size: 1.2em;}
-h6 {	font-size: 1em;}
+h1 {	
+	font-size: 2.4em;
+	line-height: 1.2em;
+}
+
+h2 {	
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+h3 { 
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+h4 {	
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+h5 {	
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+h6 {	
+	font-size: 0.8em;
+	line-height: 1.8em;
+}
+
+/* Paragraph */
+p { 
+	line-height: 1.8em; 
+}
 
 /* Font size. */
 .bp_extra_extra_small_text {
-	font-size: 0.7em;
+	font-size: 0.6em;
+	line-height: 1.8em;
 }
 
 .bp_extra_small_text {
-	font-size: 0.8em;
+	font-size: 0.7em;
+	line-height: 1.8em;
 }
 
 .bp_small_text {
 	font-size: 0.9em;
-	line-height: 0.9em;
+	line-height: 1.8em;
 }
 
 .bp_medium_text {
 	font-size: 1em;
+	line-height: 1.8em;
 }
 
 .bp_large_text {
-	font-size: 2em;
+	font-size: 1.8em;
+	line-height: 1.2em;
 }
 
 .bp_extra_large_text {
-	font-size: 3em;
+	font-size: 2.4em;
+	line-height: 1.2em;
 }
 
 .bp_extra_extra_large_text {
-	font-size: 4em;	
+	font-size: 4.8em;
+	line-height: 1.2em;
 }
 
 /* Flashcard */
