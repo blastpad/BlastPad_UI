@@ -7,6 +7,10 @@
 
 /* Image */
 
+.bp_crop {
+	overflow: hidden;
+}
+
 img.full_screen {
 	height: 100%;
 	position: absolute;
@@ -31,6 +35,11 @@ img.bp_medium {
 img.bp_large {
 	height: 50em;
 	width: 50em;
+}
+
+img.bp_small_icon {
+	height: 1em;
+	width: 1em;
 }
 
 /* Video */

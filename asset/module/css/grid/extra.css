@@ -18,7 +18,7 @@
 
 /* Full */
 .bp_full {
-	height: auto;
+	height: 100vh;
 	min-height: 100%;
 	max-width: 100%;
 	width: 100%;
@@ -30,7 +30,7 @@
 }
 
 .bp_full_height {
-	height: 100%;	
+	height: 100vh;	
 	min-height: 100%;
 }
 
@@ -47,7 +47,6 @@
 	float: right;
 	width: 20%;
 }
-
 
 /* Fluid width */
 .bp_fluid {
@@ -169,8 +168,9 @@
 
 /* Rows. */
 
-.bp_row {
-
+.bp_row:after {
+	clear: both;
+	overflow: auto;
 }
 
 /* Columns. */

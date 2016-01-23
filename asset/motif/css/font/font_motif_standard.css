@@ -1,0 +1,33 @@
+/* Text font */
+body {
+	font-family: Lora, Georgia, serif;
+	font-size: 1.1em;
+}
+
+/* Main font */
+h1, h2 {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+}
+	
+h2 {
+	font-size: 2.5em;
+}
+
+/* Subheading Font */
+.bp_tagline, .bp_subheading, .bp_menu {
+	font-family: Montserrat, Arial, sans-serif;
+}
+
+.bp_tagline {
+	font-size: 1.5em;
+}
+
+.bp_menu {
+	font-size: 1em;
+	text-transform: uppercase;
+}

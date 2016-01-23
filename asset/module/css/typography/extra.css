@@ -1,3 +1,59 @@
+/* Headings */
+.bp_h1 {	
+	font-size: 2.4em;
+	line-height: 1.2em;
+}
+
+.bp_h2 {	
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+.bp_h3 { 
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.bp_h4 {	
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+.bp_h5 {	
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+.bp_h6 {	
+	font-size: 0.8em;
+	line-height: 1.8em;
+}
+
+/* Subheadings */
+
+.bp_subheading, .bp_subheading_1 {	
+	font-size: 1.8em;
+}
+
+.bp_subheading_2 {	
+	font-size: 1.2em;
+}
+
+.bp_subheading_3 { 
+	font-size: 1em;
+}
+
+.bp_subheading_4 {	
+	font-size: 0.9em;
+}
+
+.bp_subheading_5 {	
+	font-size: 0.8em;
+}
+
+.bp_subheading_6 {	
+	font-size: 0.7em;
+}
 
 /* Font size. */
 .bp_extra_extra_small_text {
@@ -33,22 +89,6 @@
 .bp_extra_extra_large_text {
 	font-size: 4.8em;
 	line-height: 1.2em;
-}
-
-/* Flashcard */
-
-.bp_flashcard {
-	display: inline-block; 
-	height: 60%;	
-	font-size: 50em;	
-	position: absolute;
-	text-align: center;
-	transform:translate(-50%,-50%); 
-	-webkit-transform:translate(-50%,-50%); 
-    top: 50%;
-    left: 50%;
-	white-space: nowrap;	
-	width: 100%;
 }
 
 /* Font style. */
@@ -90,5 +130,18 @@
 	
 }
 
+/* Flashcard */
 
-	
+.bp_flashcard {
+	display: inline-block; 
+	height: 60%;	
+	font-size: 50em;	
+	position: absolute;
+	text-align: center;
+	transform:translate(-50%,-50%); 
+	-webkit-transform:translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+	white-space: nowrap;	
+	width: 100%;
+}

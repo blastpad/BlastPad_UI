@@ -1,0 +1,13 @@
+/* Muted colors */
+
+.bp_red { background-color: #771F1F; }
+.bp_yellow { background-color: #f2e090; }
+.bp_pink { background-color: #dd7788; }
+.bp_blue { background-color: #83adb5; }
+.bp_navy { background-color: #667799; }
+.bp_green { background-color: #7a9460; }
+.bp_orange { background-color: #dd9977; }
+.bp_violet { background-color: #665566; }
+.bp_purple { background-color: #c7bbc9; }
+.bp_black { background-color: #223333; }
+.bp_gray, .bp_grey { background-color: bfb5b2; }

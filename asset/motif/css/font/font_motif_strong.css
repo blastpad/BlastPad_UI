@@ -1,0 +1,38 @@
+/* Text font */
+body {
+	font-family: "Source Sans Pro", "Playfair Display", Georgia, serif;
+	font-size: 1.1em;
+}
+
+/* Main font */
+h1, h2 {
+	font-family: Raleway, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 6em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+/* Subheading Font */
+.bp_tagline, .bp_menu, .bp_subheading {
+	font-family: "Archivo Narrow", Arial, sans-serif;
+}
+
+.bp_tagline {
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+
+.bp_menu {
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+.bp_subheading {
+	font-size: 1.2em;
+}

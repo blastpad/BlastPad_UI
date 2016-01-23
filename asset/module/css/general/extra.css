@@ -67,5 +67,39 @@
 /* Rounded corner */
 
 .bp_rounded_corner {
-	border-radius: 5px;
+	border-radius: 0.5em;
+}
+
+.bp_extra_rounded_corner {
+    border-radius: 10em;
+}
+
+/* Cropped corners. */
+.bp_cut_corner {
+	background: #47b912;
+	background:
+		linear-gradient( 135deg, transparent 10px, #47b912 0 ) top left, 
+		linear-gradient( 225deg, transparent 0px, #47b912 0 ) top right,
+		linear-gradient( 315deg, transparent 10px, #47b912 0 ) bottom right,
+		linear-gradient( 45deg,  transparent 0px, #47b912 0 ) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.bp_border_circular {
+	border: 0.077em solid #ffffff;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.bp_text_overlay {
+	position: relative; 
+	width: 100%; /* for IE 6 */
+}
+
+.bp_text_overlay  span{ 
+	position: absolute; 
+	top: 0;
 }

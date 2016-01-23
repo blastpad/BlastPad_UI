@@ -157,7 +157,41 @@ footer {
 /* Rounded corner */
 
 .bp_rounded_corner {
-	border-radius: 5px;
+	border-radius: 0.5em;
+}
+
+.bp_extra_rounded_corner {
+    border-radius: 10em;
+}
+
+/* Cropped corners. */
+.bp_cut_corner {
+	background: #47b912;
+	background:
+		linear-gradient( 135deg, transparent 10px, #47b912 0 ) top left, 
+		linear-gradient( 225deg, transparent 0px, #47b912 0 ) top right,
+		linear-gradient( 315deg, transparent 10px, #47b912 0 ) bottom right,
+		linear-gradient( 45deg,  transparent 0px, #47b912 0 ) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.bp_border_circular {
+	border: 0.077em solid #ffffff;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.bp_text_overlay {
+	position: relative; 
+	width: 100%; /* for IE 6 */
+}
+
+.bp_text_overlay  span{ 
+	position: absolute; 
+	top: 0;
 }/* Grid default */
 html {
 	height: 100%;
@@ -206,7 +240,7 @@ section {
 
 /* Full */
 .bp_full {
-	height: auto;
+	height: 100vh;
 	min-height: 100%;
 	max-width: 100%;
 	width: 100%;
@@ -218,7 +252,7 @@ section {
 }
 
 .bp_full_height {
-	height: 100%;	
+	height: 100vh;	
 	min-height: 100%;
 }
 
@@ -235,7 +269,6 @@ section {
 	float: right;
 	width: 20%;
 }
-
 
 /* Fluid width */
 .bp_fluid {
@@ -357,8 +390,9 @@ section {
 
 /* Rows. */
 
-.bp_row {
-
+.bp_row:after {
+	clear: both;
+	overflow: auto;
 }
 
 /* Columns. */
@@ -474,6 +508,62 @@ h6 {
 p { 
 	line-height: 1.8em; 
 }
+/* Headings */
+.bp_h1 {	
+	font-size: 2.4em;
+	line-height: 1.2em;
+}
+
+.bp_h2 {	
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+.bp_h3 { 
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.bp_h4 {	
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+.bp_h5 {	
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+.bp_h6 {	
+	font-size: 0.8em;
+	line-height: 1.8em;
+}
+
+/* Subheadings */
+
+.bp_subheading, .bp_subheading_1 {	
+	font-size: 1.8em;
+}
+
+.bp_subheading_2 {	
+	font-size: 1.2em;
+}
+
+.bp_subheading_3 { 
+	font-size: 1em;
+}
+
+.bp_subheading_4 {	
+	font-size: 0.9em;
+}
+
+.bp_subheading_5 {	
+	font-size: 0.8em;
+}
+
+.bp_subheading_6 {	
+	font-size: 0.7em;
+}
 
 /* Font size. */
 .bp_extra_extra_small_text {
@@ -509,22 +599,6 @@ p {
 .bp_extra_extra_large_text {
 	font-size: 4.8em;
 	line-height: 1.2em;
-}
-
-/* Flashcard */
-
-.bp_flashcard {
-	display: inline-block; 
-	height: 60%;	
-	font-size: 50em;	
-	position: absolute;
-	text-align: center;
-	transform:translate(-50%,-50%); 
-	-webkit-transform:translate(-50%,-50%); 
-    top: 50%;
-    left: 50%;
-	white-space: nowrap;	
-	width: 100%;
 }
 
 /* Font style. */
@@ -566,9 +640,21 @@ p {
 	
 }
 
+/* Flashcard */
 
-	
-/* Colors default */
+.bp_flashcard {
+	display: inline-block; 
+	height: 60%;	
+	font-size: 50em;	
+	position: absolute;
+	text-align: center;
+	transform:translate(-50%,-50%); 
+	-webkit-transform:translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+	white-space: nowrap;	
+	width: 100%;
+}/* Colors default */
 /* Colors extra */
 
 /* Text color. */
@@ -807,6 +893,21 @@ button, input[ type="submit" ], input[ type="button" ] {
 	position: fixed;
 }
 
+/* Dropdown */
+.bp_menu {
+	display: inline-block;
+	position: relative;
+}
+
+.bp_submenu {
+	display: none;
+	position: absolute;
+}
+
+.bp_dropdown:hover .bp_submenu{
+	display: block;
+}
+
 /* Bottom bar */
 
 .bp_bottom_bar_wrapper {
@@ -822,16 +923,23 @@ button, input[ type="submit" ], input[ type="button" ] {
 	position: fixed;
 	width: 100%;
 }
-/* Table rows. */
+/* Table. */
+
+/* Striped rows. */
 .bp_table_striped > tbody > tr:nth-child(odd) > td, 
 .bp_table_striped > tbody > tr:nth-child(odd) > th {
    background-color: #ffffff;
- }
+}
  
 .bp_table_striped > tbody > tr:nth-child(even)> td, 
 .bp_table_striped > tbody > tr:nth-child(even)> th {
-   background-color: #D3EE9F;
- }/* Container default */
+   background-color: #fbfbfb;
+}
+ 
+/* Change background color of row on hover. */
+.bp_table_hover > tbody > tr:hover td {
+	background: #f3f3f3;
+}/* Container default */
 /* Container extra */
 
 /* Box */
@@ -965,6 +1073,10 @@ button, input[ type="submit" ], input[ type="button" ] {
 
 /* Image */
 
+.bp_crop {
+	overflow: hidden;
+}
+
 img.full_screen {
 	height: 100%;
 	position: absolute;
@@ -991,17 +1103,15 @@ img.bp_large {
 	width: 50em;
 }
 
+img.bp_small_icon {
+	height: 1em;
+	width: 1em;
+}
+
 /* Video */
 
 .bp_video {
 	height: 100%;
 	left: 0;
 	width: 100%;
-}/* Rounded corners */
-
-input, textarea, button, code, form, 
-.bp_message, .bp_border, .bp_tight_border, .bp_content, .bp_panel {
-	border-radius: 0.5em;
-	-moz-border-radius: 0.5em;
-	-webkit-border-radius: 0.5em;
 }

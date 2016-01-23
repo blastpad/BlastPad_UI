@@ -1,0 +1,44 @@
+/* Text font */
+body, .bp_form_field  {
+	font-family: Cabin, Arial, sans-serif;
+}
+
+body {
+	font-size: 1.1em;
+}
+
+/* Main font */
+h1, h2 {
+	font-family: "Lobster Two", cursive;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 3em;
+	text-transform: lowercase;
+}
+
+/* Subheading Font */
+h3, h4, .bp_menu, .bp_tagline, .bp_subheading {
+	font-family: Oswald, Arial, sans-serif;
+}
+
+.bp_menu {
+	font-size: 1.2em;
+	text-transform: lowercase;
+}
+
+h4 {
+	font-size: 1.5em;	
+}
+
+.bp_tagline {
+	font-size: 2em;
+}
+
+.bp_subheading {
+	font-size: 1.5em;
+}

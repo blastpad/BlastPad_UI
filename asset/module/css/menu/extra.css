@@ -66,6 +66,21 @@
 	position: fixed;
 }
 
+/* Dropdown */
+.bp_menu {
+	display: inline-block;
+	position: relative;
+}
+
+.bp_submenu {
+	display: none;
+	position: absolute;
+}
+
+.bp_dropdown:hover .bp_submenu{
+	display: block;
+}
+
 /* Bottom bar */
 
 .bp_bottom_bar_wrapper {

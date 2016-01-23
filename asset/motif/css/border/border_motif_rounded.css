@@ -1,0 +1,8 @@
+/* Rounded corners */
+
+input, textarea, button, code, form, 
+.bp_message, .bp_border, .bp_tight_border, .bp_content, .bp_panel, .bp_box {
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}

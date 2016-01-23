@@ -1,10 +1,17 @@
-/* Table rows. */
+/* Table. */
+
+/* Striped rows. */
 .bp_table_striped > tbody > tr:nth-child(odd) > td, 
 .bp_table_striped > tbody > tr:nth-child(odd) > th {
    background-color: #ffffff;
- }
+}
  
 .bp_table_striped > tbody > tr:nth-child(even)> td, 
 .bp_table_striped > tbody > tr:nth-child(even)> th {
-   background-color: #D3EE9F;
- }
+   background-color: #fbfbfb;
+}
+ 
+/* Change background color of row on hover. */
+.bp_table_hover > tbody > tr:hover td {
+	background: #f3f3f3;
+}
