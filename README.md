@@ -1,3 +1,4 @@
+![Alt text](asset/logo_images/blastpad-100.png?raw=true "logo image")
 # BlastPad UI
 A simple, lightweight and modular CSS front-end framework for styling websites quickly.
 
