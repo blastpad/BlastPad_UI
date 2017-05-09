@@ -1,0 +1,26 @@
+{
+  "name": "blastpad-ui",
+  "version": "0.0.6",
+  "description": "BlastPad UI is a lightweight and modular CSS front-end framework.",
+  "main": "asset/module/css/blastpad_ui.min.css",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blastpad/BlastPad_UI.git"
+  },
+  "keywords": [
+    "css",
+    "framework"
+  ],
+  "author": "Honey Silvas",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/blastpad/BlastPad_UI/issues"
+  },
+  "homepage": "https://github.com/blastpad/BlastPad_UI#readme"
+}
