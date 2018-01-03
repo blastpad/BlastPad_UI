@@ -1075,7 +1075,6 @@ input:checked + .bp_slider:before {
 }
 
 /* Dropdown */
-
 .bp_menu {
 	display: inline-block;
 	position: relative;
