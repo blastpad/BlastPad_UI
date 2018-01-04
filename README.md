@@ -34,8 +34,13 @@ Check out the contributing.md file for more details.
 
 # Credits
 Honey Silvas (@honeysilvas)
-
+Parthipan-Natkunam
+Shaun2D2
+mmBabol
 (Add your name here by contributing.)
+
+Complete list: https://github.com/blastpad/BlastPad_UI/graphs/contributors
+
 
 
 
