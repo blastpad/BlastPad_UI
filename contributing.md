@@ -1,11 +1,10 @@
+
 # BlastPad UI
 A simple, lightweight and modular CSS front-end framework for styling websites quickly.
 
 
-
 # Contributions
 Contributions are most welcome. We welcome contributions of code (HTML and CSS), design, documentation, support, marketing, translation, SEO and more!
-
 
 
 # New to Contributing?
@@ -17,11 +16,9 @@ We also welcome contributors of all levels.
 The only thing you need to know before contributing is HTML and CSS.  If you are not familiar with HTML and CSS, you can do the free 7-hour course on Codecademy at https://www.codecademy.com/learn/web.   
 
 
-
 # Pair Programming and Mentorship Sessions
 
 We have weekly pair programming and mentorship sessions.   Please message me to reserve your spot.  
-
 
 
 # Issues for Beginners
@@ -32,11 +29,9 @@ The complete list of issues are here: https://github.com/blastpad/BlastPad_UI/is
 You can also add issues there.
 
 
-
 # Documentation
 
 We are always looking for contributors who can help with the documentation. To start contributing to the documentation, just go to https://github.com/blastpad/BlastPad_UI/wiki and click the "Edit" button to start editing.
-
 
 
 # Contact Information
