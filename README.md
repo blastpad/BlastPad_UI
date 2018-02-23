@@ -7,10 +7,14 @@ A simple, lightweight and modular CSS front-end framework for styling websites q
 View the Getting Started Guide at http://blastpad.co/ui/documentation/
 
 
+# Installing
+```
+npm install blastpad-ui
+```
+
 
 # Examples
 View the examples at http://blastpad.co/ui/example/
-
 
 
 # License
@@ -31,7 +35,6 @@ You can also chat with us at https://gitter.im/blastpad/BlastPad
 Check out the contributing.md file for more details.
 
 
-
 # Credits
 Honey Silvas (@honeysilvas)
 Parthipan-Natkunam
@@ -40,8 +43,6 @@ mmBabol
 (Add your name here by contributing.)
 
 Complete list: https://github.com/blastpad/BlastPad_UI/graphs/contributors
-
-
 
 
 # Contact Information
